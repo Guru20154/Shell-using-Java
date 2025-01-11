@@ -32,9 +32,9 @@ This project is a Java-based shell simulation that interprets and executes user 
 
 1. Clone the repository or copy the `Main.java` file to your project.
 2. Compile the program:
-   ```bash
-   javac Main.java
-    ```
+  ```bash
+  javac Main.java
+  ```
 3. Run the program:
   ```bash
   java Main
@@ -44,7 +44,7 @@ This project is a Java-based shell simulation that interprets and executes user 
   exit 0
   ```
 ## Built-in Command Details
-# `echo`
+### `echo`
 Prints the provided text. Examples:
 - Basic usage:
   ```bash
@@ -54,17 +54,17 @@ Prints the provided text. Examples:
   ```bash
   echo "This is a test" > output.txt
   ```
-# `type`
+### `type`
 Displays whether a command is a built-in or its location. Example:
   ```bash
   type echo
   ```
-# `pwd`
+### `pwd`
 Prints the current working directory. Example:
   ```bash
   pwd
   ```
-# `cd`
+### `cd`
 Changes the current directory. Examples:
 - Navigate to a specific folder:
   ```bash
@@ -74,7 +74,7 @@ Changes the current directory. Examples:
   ```bash
   cd ~
   ```
-# `cat`
+### `cat`
 Displays the content of files. Examples:
 - Basic usage:
   ```bash
@@ -84,7 +84,7 @@ Displays the content of files. Examples:
   ```bash
   cat file.txt > output.txt
   ```
-# `ls`
+### `ls`
 Lists the contents of a directory. Example:
   ```bash
   ls /path/to/directory
